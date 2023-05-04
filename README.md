@@ -1,2 +1,3 @@
 # TD
-Avdanced Embdedded Labs (IOT)
+AdVanced Embdedded Labs (IOT)
+Smart Garden Project
