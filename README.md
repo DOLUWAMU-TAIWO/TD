@@ -1,5 +1,5 @@
 # TD
-Advanced Embdedded Labs (IOT)
+Advanced Embdedded Labs (IOT) AND Hardware Engineering
 
 Smart Garden Project Motivation
 
