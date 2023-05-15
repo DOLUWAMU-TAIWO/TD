@@ -4,14 +4,19 @@ MQTT Arduino client sends soil moisture data to the topic
 
 Follow these steps to set up a Mosquitto MQTT broker on a Raspberry Pi:
 
-1. Update package lists
+Step 1: Update package lists
+Use the following command to update the package lists on your Raspberry Pi:
 
-```
-function test() {
-  console.log("notice the blank line before this function?");
-}
-```
+sudo apt update
 
-2. Install Mosquitto MQTT broker package:
+Step 2: Install Mosquitto MQTT broker package
 
-'sudo apt install mosquitto'
+sudo apt install mosquitto
+
+3. Start Mosquitto service:
+
+sudo systemctl start mosquitto
+
+4. Verify Mosquitto service status:
+
+systemctl status mosquitto
