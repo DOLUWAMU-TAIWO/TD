@@ -13,10 +13,10 @@ Step 2: Install Mosquitto MQTT broker package
 
 sudo apt install mosquitto
 
-3. Start Mosquitto service:
+Step 3: Start Mosquitto service:
 
 sudo systemctl start mosquitto
 
-4. Verify Mosquitto service status:
+Step 4: Verify Mosquitto service status:
 
 systemctl status mosquitto
