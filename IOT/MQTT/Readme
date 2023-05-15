@@ -7,8 +7,9 @@ Follow these steps to set up a Mosquitto MQTT broker on a Raspberry Pi:
 1. Update package lists
 
 ```
-sudo apt update
-
+function test() {
+  console.log("notice the blank line before this function?");
+}
 ```
 
 2. Install Mosquitto MQTT broker package:
