@@ -1,0 +1,2 @@
+#define SECRET_SSID "Apartment 81"
+#define SECRET_PASS "67370598069147094914"
