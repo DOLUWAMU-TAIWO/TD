@@ -113,7 +113,7 @@ begin
 	C1: Comparator port map (clk=>clk,reset=>reset,anykeypressed=>akp,keypad_input=>Decode,s=>s_state,r=>r_state,running_state => running,nokey=>nk);
 	C2: latch port map (s => s_state, r => r_state, clk => clk, reset => reset, correct => command_c, wrong => command_w);
 	C3: DisplayController port map (clk=>clk,correct=>command_c,wrong=>command_w,reset=>reset,anode=>an,segOut=>seg,buzzer=>buzzer,buzzerblue=>buzzblue,idle_state=>idle,nokey=>nk,buzzergreen=>buzzergreen);
-    C4: myFSM port map (p=>p,running_state_sig=>running,clk=>clk,reset=>reset,idle_state_sig=>idle);
+        C4: myFSM port map (p=>p,running_state_sig=>running,clk=>clk,reset=>reset,idle_state_sig=>idle);
 
 end Behavioral;
 
