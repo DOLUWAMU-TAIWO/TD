@@ -1,4 +1,4 @@
-MQTT Arduino client sends soil moisture data to the topic
+MQTT Arduino client sends sensor data data to the topic
 
 # Raspberry Pi Mosquitto Broker Setup
 
