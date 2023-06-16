@@ -1,0 +1,99 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid fc5871dc-46ba-4451-80f6-0ae8357c9dbd)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 189.23 22.86) (size 49.53 24.13) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 1a004e55-f00b-444f-8024-c359555006de)
+    (property "Sheetname" "FPGA_ext" (at 189.23 22.1484 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "untitled.kicad_sch" (at 189.23 47.5746 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "Alarm"
+        (path "/fc5871dc-46ba-4451-80f6-0ae8357c9dbd" (page "4"))
+      )
+    )
+  )
+
+  (sheet (at 74.93 21.59) (size 43.18 25.4) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 398d1213-f017-41b2-b6a8-4fba4dec9be1)
+    (property "Sheetname" "FPGA_util" (at 74.93 20.8784 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "FPGA_util.kicad_sch" (at 74.93 47.5746 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "Alarm"
+        (path "/fc5871dc-46ba-4451-80f6-0ae8357c9dbd" (page "3"))
+      )
+    )
+  )
+
+  (sheet (at 24.13 21.59) (size 45.72 25.4) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 4a3ad070-b760-40cf-98fc-bd5e5b9a12e0)
+    (property "Sheetname" "power" (at 24.13 20.8784 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "power.kicad_sch" (at 24.13 47.5746 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "Alarm"
+        (path "/fc5871dc-46ba-4451-80f6-0ae8357c9dbd" (page "2"))
+      )
+    )
+  )
+
+  (sheet (at 129.54 22.86) (size 44.45 22.86) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 6a8ddf71-e894-4951-ba91-a5a5c76ce261)
+    (property "Sheetname" "FPGA_JTGA" (at 129.54 22.1484 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "FPGA_JTGA.kicad_sch" (at 129.54 46.3046 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "Alarm"
+        (path "/fc5871dc-46ba-4451-80f6-0ae8357c9dbd" (page "6"))
+      )
+    )
+  )
+
+  (sheet (at 29.21 68.58) (size 49.53 22.86) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 8875b697-b1b1-41a9-86f0-5c9cc82decb5)
+    (property "Sheetname" "FPGA_key" (at 29.21 67.8684 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "FPGA_key.kicad_sch" (at 29.21 92.0246 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "Alarm"
+        (path "/fc5871dc-46ba-4451-80f6-0ae8357c9dbd" (page "5"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)
