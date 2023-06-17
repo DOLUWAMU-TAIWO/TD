@@ -1,3 +1,18 @@
+----------------------------------------------------------------------------------
+-- Company: HSHL
+-- Engineer: Doluwamu Kuye  
+-- Create Date:    17:05:39 07/06/2023 
+--
+-- Module Name:   Comparator Final -Behavioural
+-- Project Name:  Alarm system
+-- Target Devices: Nexys A7
+-- Tool versions: Xilinx ISE 13.2 
+-- Description: 
+--	This file defines a comparator module that takes input from 4 other comparators and checks if there is a signal match in all.
+--
+-- Revision: 1.4
+-- Revision 0.01 - File Created
+----------------------------------------------------------------------------------
 library ieee;
 use ieee.std_logic_1164.all;
 
