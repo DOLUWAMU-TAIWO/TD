@@ -1,16 +1,16 @@
 ----------------------------------------------------------------------------------
 -- Company: HSHL
 -- Engineer: Doluwamu Kuye  
--- Create Date:    17:05:39 08/23/2011 
+-- Create Date:    17:05:39 06/06/2023 
 --
 -- Module Name:    Top - Behavioral 
 -- Project Name:  Alarm system
 -- Target Devices: Nexys A7
 -- Tool versions: Xilinx ISE 13.2 
 -- Description: 
---	This file defines a project that outputs the key pressed on the PmodKYPD to the seven segment display
+--	This file defines a module that acts as the top file for our whole system.
 --
--- Revision: 
+-- Revision: 1.7
 -- Revision 0.01 - File Created
 ----------------------------------------------------------------------------------
 library IEEE;
