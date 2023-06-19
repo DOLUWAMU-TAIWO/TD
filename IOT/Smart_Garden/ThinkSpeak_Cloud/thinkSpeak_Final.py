@@ -5,12 +5,12 @@ import time
 # MQTT broker settings
 broker = "172.20.10.4"
 port = 1883
-username = "teamd"  # Replace with your MQTT broker username
-password = "TeamD2023"  # Replace with your MQTT broker password
+username = "teamd"  # MQTT broker username
+password = "TeamD2023"  #  MQTT broker password
 
 # ThingSpeak settings
-channel_id = "2164717"  # Replace with your ThingSpeak channel ID
-api_key = "L2T932BU6SPRNEBH"  # Replace with your ThingSpeak API key
+channel_id = "2164717"  # ThingSpeak channel ID
+api_key = "L2T932BU6SPRNEBH"  # ThingSpeak API key
 
 # MQTT on_connect callback
 def on_connect(client, userdata, flags, rc):
