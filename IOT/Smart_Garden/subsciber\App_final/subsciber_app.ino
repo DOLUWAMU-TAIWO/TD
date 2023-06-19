@@ -69,7 +69,7 @@ void loop() {
   }
 
   mqttClient.loop();
-  // Add your other code here if needed
+ 
 }
 
 void reconnect() {
