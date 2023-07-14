@@ -1,0 +1,122 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 940ff291-29cb-4a80-9b9b-a0e793852143)
+
+  (paper "A4")
+
+  (title_block
+    (title "Alarm_FPGA ")
+    (date "2023-07-12")
+    (rev "v0.3")
+    (company "Hochschule Hamm-Lippstadt")
+    (comment 1 "Ajay Paul")
+  )
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 30.48 76.2) (size 49.53 22.86) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 08dd733a-1589-416c-bb61-302a945d30cd)
+    (property "Sheetname" "FPGA_key" (at 30.48 75.4884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "FPGA_key.kicad_sch" (at 30.48 99.6446 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "ROOT"
+        (path "/fc5871dc-46ba-4451-80f6-0ae8357c9dbd" (page "5"))
+      )
+      (project "Alaram_update"
+        (path "/940ff291-29cb-4a80-9b9b-a0e793852143" (page "3"))
+      )
+    )
+  )
+
+  (sheet (at 31.75 30.48) (size 45.72 25.4) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 2f160bd7-2f8f-4ac4-8f58-8e0c46e7a15a)
+    (property "Sheetname" "power" (at 31.75 29.7684 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "power.kicad_sch" (at 31.75 56.4646 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "ROOT"
+        (path "/fc5871dc-46ba-4451-80f6-0ae8357c9dbd" (page "2"))
+      )
+      (project "Alaram_update"
+        (path "/940ff291-29cb-4a80-9b9b-a0e793852143" (page "2"))
+      )
+    )
+  )
+
+  (sheet (at 205.74 30.48) (size 49.53 24.13) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 39d8f93a-8c07-4faf-a38b-04d933e1f1ed)
+    (property "Sheetname" "FPGA_ext" (at 205.74 29.7684 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "untitled.kicad_sch" (at 205.74 55.1946 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "ROOT"
+        (path "/fc5871dc-46ba-4451-80f6-0ae8357c9dbd" (page "4"))
+      )
+      (project "Alaram_update"
+        (path "/940ff291-29cb-4a80-9b9b-a0e793852143" (page "4"))
+      )
+    )
+  )
+
+  (sheet (at 146.05 30.48) (size 44.45 22.86) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 3b7c653e-8761-4ae4-a8a8-18e0279203de)
+    (property "Sheetname" "FPGA_JTGA" (at 146.05 29.7684 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "FPGA_JTGA.kicad_sch" (at 146.05 53.9246 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "ROOT"
+        (path "/fc5871dc-46ba-4451-80f6-0ae8357c9dbd" (page "6"))
+      )
+      (project "Alaram_update"
+        (path "/940ff291-29cb-4a80-9b9b-a0e793852143" (page "5"))
+      )
+    )
+  )
+
+  (sheet (at 91.44 29.21) (size 43.18 25.4) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid fe13f24a-8ff3-4a2c-8ea6-630bae1302b3)
+    (property "Sheetname" "FPGA_util" (at 91.44 28.4984 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "FPGA_util.kicad_sch" (at 91.44 55.1946 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "ROOT"
+        (path "/fc5871dc-46ba-4451-80f6-0ae8357c9dbd" (page "3"))
+      )
+      (project "Alaram_update"
+        (path "/940ff291-29cb-4a80-9b9b-a0e793852143" (page "6"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)
